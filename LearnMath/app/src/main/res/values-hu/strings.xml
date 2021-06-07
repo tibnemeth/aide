@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Tanuló</string>
+    <string name="hello_world">Hello Világ!</string>
+    <string name="learn_addition">Összeadás</string>
+    <string name="action_settings">Beállítás</string>
+    <string name="action_about">Info</string>
+    <string name="action_exit">Kilépés</string>
+    <string name="start_text">Rajt</string>
+    <string name="save_button">Mentés</string>
+    <string name="next_text">Tovább</string>
+    <string name="again_text">Újra</string>
+    <string name="intro">This is example of AppBar also known as Toolbar</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Matematika"
+        android:textSize="30sp"
+        android:id="@+id/Problem_text"
+        android:gravity="center_horizontal"/>
+    
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="A számjegyei száma"
+            android:textSize="20sp"/>
+        
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:id="@+id/numALength"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="B számjegyei száma"
+            android:textSize="20sp"/>
+        
+        <Spinner
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:id="@+id/numBLength"/>
+
+    </LinearLayout>
+</ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:text="@string/save_button"
+        android:id="@+id/save_button"/>
+  
+
+
+</RelativeLayout>
