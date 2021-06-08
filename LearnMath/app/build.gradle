@@ -21,6 +21,7 @@ android {
 }
 
 dependencies {
+	api 'com.android.support:appcompat-v7:27.+'
 	api 'com.android.support:preference-v7:27.+'
     api ('android.arch.core:runtime:+')
     {
